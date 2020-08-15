@@ -55,7 +55,7 @@ PLUGINREPO=""
 
 # Version
 
-APPVERSION="$(curl -LSs ${DOTFILESREPO:-https://github.com/casjay-dotfiles}/$APPNAME/raw/master/version.txt)"
+APPVERSION="$(curl -LSs ${THEMEMGRREPO:-https://github.com/thememgr}/$APPNAME/raw/master/version.txt)"
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
@@ -67,7 +67,7 @@ theme_installer
 
 # Set options
 
-APPDIR="$CONF/$APPNAME"
+APPDIR="$CONF/CasjaysDev/thememgr"
 PLUGDIR="$SHARE/$APPNAME/${PLUGNAME:-plugins}"
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
