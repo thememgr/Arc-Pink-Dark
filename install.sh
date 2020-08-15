@@ -180,7 +180,7 @@ execute \
 
 # create version file
 
-install_version
+install_thememgr_version
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
