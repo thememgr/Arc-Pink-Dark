@@ -61,7 +61,7 @@ APPVERSION="$(curl -LSs ${THEMEMGRREPO:-https://github.com/thememgr}/$APPNAME/ra
 
 # installer type
 
-theme_installer
+thememgr_install
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
@@ -168,8 +168,7 @@ failexitcode
 # run post install scripts
 
 run_postinst() {
-  run_postinst_global
-  run_post_theme
+  thememgr_run_post
 }
 
 execute \
@@ -180,7 +179,7 @@ execute \
 
 # create version file
 
-install_thememgr_version
+thememgr_install_version
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
