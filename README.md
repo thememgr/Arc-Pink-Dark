@@ -3,7 +3,7 @@
 requires:
 
 ```bash
-sudo bash -c "$(curl -LSs https://github.com/thememgr/Arc-Pink-Dark/raw/master/install.sh)"
+sudo bash -c "$(curl -LSs https://github.com/thememgr/Arc-Pink-Dark/raw/main/install.sh)"
 ```  
 
 install:
